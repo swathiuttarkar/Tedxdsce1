@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swathivarsha.tedx1.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tedxdsce_logo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/tedxdsce_logo_white" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_person_pin_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:drawableStart="@drawable/ic_person_pin_black_24dp"
+                android:hint="Name"
+                android:inputType="textPersonName|textCapSentences|textAutoCorrect"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress|textAutoCorrect"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:drawableStart="@drawable/ic_contact_phone_black_24dp"
+
+                android:hint="Phone"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/user_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/screen_sign_up_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:backgroundTintMode="add"
+            android:onClick="on"
+            android:shadowColor="@color/colorPrimary"
+            android:text="SIGN UP"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</LinearLayout>

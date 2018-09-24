@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swathivarsha.tedx1.NewsFeedFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Nothing to display.Turn on Internet."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web_view_layout"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/insta_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBlack"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="INSTAGRAM"
+                android:textColor="@color/colorWhite"
+                android:textColorLink="@color/colorLightRed"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/red_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5sp"
+                android:background="@color/colorPrimary"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView">
+
+        </WebView>
+    </LinearLayout>
+
+
+</FrameLayout>

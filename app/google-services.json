@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "293252050907",
+    "firebase_url": "https://tedx1-73026.firebaseio.com",
+    "project_id": "tedx1-73026",
+    "storage_bucket": "tedx1-73026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293252050907:android:1198d615ba82daf8",
+        "android_client_info": {
+          "package_name": "com.example.swathivarsha.tedx1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293252050907-cru7eot00mb5pmk60jj7bo65r5p1de05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swathivarsha.tedx1",
+            "certificate_hash": "97644d014d4ae777b5311c58b2e4a2fe55b241e6"
+          }
+        },
+        {
+          "client_id": "293252050907-urust5q8l0i1v7jbpe5m1kmae44315mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpZAcLJcHAhqX3ndlUSy3zSr_4jdOX_ts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293252050907-urust5q8l0i1v7jbpe5m1kmae44315mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

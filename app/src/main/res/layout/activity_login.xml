@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swathivarsha.tedx1.LoginActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/tedxdsce_logo_white"
+        android:paddingTop="10dp"
+        android:id="@+id/tedxdsce_logo"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        >
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorBlack"
+
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:hint="Email Address"
+            android:textColorHint="@color/colorPrimary"
+
+            android:id="@+id/login_user_email"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        >
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/colorBlack"
+
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:hint="Password"
+            android:textColorHint="@color/colorPrimary"
+
+            android:id="@+id/login_user_password"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:backgroundTintMode="add"
+        android:background="@color/colorWhite"
+        android:layout_margin="10dp"
+        android:id="@+id/login_button"
+        />
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:backgroundTintMode="add"
+        android:background="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="@color/colorPrimary"
+        android:gravity="end"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/forgot_reset_password"
+        />
+</LinearLayout>
